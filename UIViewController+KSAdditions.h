@@ -12,7 +12,7 @@
 // initialize view controller in refer from story board
 // by default, use main as the storyboard name and
 // the view controller class name as the identifier
-- (__kindof UIViewController * _Nonnull)KS_initWithStoryboardName:(NSString  * _Nullable)storyboardName andIdentifier:(NSString * _Nullable)identifier;
++ (__kindof UIViewController * _Nonnull)KS_initWithStoryboardName:(NSString  * _Nullable)storyboardName andIdentifier:(NSString * _Nullable)identifier;
 
 // UIPopoverController like popover function
 // It will use the current top view controller to

@@ -11,7 +11,7 @@
 @implementation UIViewController (KSAdditions)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wobjc-designated-initializers"
-- (__kindof UIViewController * _Nonnull)KS_initWithStoryboardName:(NSString  * _Nullable)storyboardName andIdentifier:(NSString * _Nullable)identifier {
++ (__kindof UIViewController * _Nonnull)KS_initWithStoryboardName:(NSString  * _Nullable)storyboardName andIdentifier:(NSString * _Nullable)identifier {
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardName?storyboardName:@"Main" bundle:nil];
     return [storyboard instantiateViewControllerWithIdentifier:identifier?identifier:NSStringFromClass([self class])];
 }
